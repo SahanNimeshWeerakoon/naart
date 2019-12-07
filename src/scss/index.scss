@@ -1,0 +1,71 @@
+.react-images__positioner.css-1rbq2qy.css-1ycyyax {
+    z-index: 1040 !important;
+}
+.app {
+    h2, h3 {
+        text-align: center;
+    }
+    .banner {
+        position: relative;
+        height: 100vh;
+        img, .banner-content {
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+        }
+        .banner-content {
+            z-index: 2;       
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0,0,0,0.5);
+            h1, p {
+                color: #fff;
+                width: 70%;
+                text-align: center;
+            }
+            // h1{
+            //     transform: translate(300px, 0);
+            // }
+            // p, .gal_btn{
+            //     opacity: 0;
+            // }
+            // p{
+            //     transform: translate(0, -50px);
+            // }
+            // .gal_btn{
+            //     transform: translate(0, 50px);
+            // }
+        }
+    }
+    .contact-me {
+        .contact-icons {
+            text-align: center;
+        }
+        .contact-message {
+            .input_field {
+                border: 1px solid rgba(200,200, 200, 0.23);
+                border-bottom: 1px solid #e3e3e3;
+                transition: 0.5s;
+                &:focus {
+                    outline: none;
+                    box-shadow:none !important;
+                    border-bottom: 3px solid rgba(0,123,255,0.3);
+                }
+            }
+            .text-danger {
+                opacity: 0.8;
+                font-size: 0.79em;
+            }
+        }
+    }
+    .footer {
+        p {
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: 100;
+        }
+    }
+}
