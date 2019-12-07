@@ -25,8 +25,8 @@ class Banner extends Component {
             <div className="banner">
                 <img src={banner} />
                 <div className="banner-content">
-                    <h1 ref={h => { this.ban_h=h }}>NAART Artist</h1>
-                    <p ref={p => { this.p_n_btn[0] = p }}>
+                    <h1>NAART Artist</h1>
+                    <p>
                         Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown 
                         typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
                     </p>
